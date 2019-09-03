@@ -1,0 +1,51 @@
+#container-box{
+    height: 40vh;
+    width: 40vw;
+    position: relative;
+    
+}
+
+#laptop {
+    position: relative;
+    left: 25%;
+    top: 25%;
+}
+
+#html {
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    animation: ht 20s;
+    animation-iteration-count: infinite;
+}
+
+#css {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    animation: css 5s;
+    animation-iteration-count: infinite;
+}
+
+#js{
+    position: absolute;
+    top: 60%;
+    right: 40%;
+    animation: js6 20s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ht {
+    0% {right: 50%}
+    50% {right: 30%}
+}
+
+@keyframes css {
+    0% {top: 40%}
+    50% {top: 45%}
+}
+
+@keyframes js6 {
+    0% { transform: rotate(0deg) translateX(80px) rotate(0deg); }
+    100%   { transform: rotate(360deg) translateX(80px) rotate(-360deg); }
+}

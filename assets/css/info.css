@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(151deg, rgba(0,0,0,0.9224733838848039) 0%, rgba(113,113,113,0) 56%, rgba(0,0,0,1) 100%), url("../img/charMap.PNG") no-repeat center; 
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    line-height: 50px;
+    font-size: 2rem;
+}
+
+#info-1 {
+    width: 30vw;
+    height: 50vh;
+    background-color: blue;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    opacity: .2;
+}
+
+.info-text {
+    padding-left: 3vw;
+    padding-top: 6vh;
+}
+
+#info-2 {
+    width: 30vw;
+    height: 30vh;
+    background-color:red;
+    position: absolute;
+    top:10%;
+    right: 0%;
+    clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+    opacity: .2;
+}
+
+.info-text2 {
+    padding-left: 9vw;
+    padding-top: 8vh;
+}
+
+#state {
+    color: blue;
+    font-size: 15vw;
+    width: 30vw;
+    height: 50vh;
+    position: absolute;
+    top: 26%;
+    left: 0%;
+    opacity: .2;
+}
+
+#street {
+    color:red;
+    font-size: 15vw;
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    opacity: .2;
+}
