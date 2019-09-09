@@ -1,16 +1,28 @@
 <link rel="stylesheet" type="text/css" href="./assets/css/landing.css">
 <link rel="stylesheet" type="text/css" href="./assets/css/theme.css">
 <link rel="stylesheet" type="text/css" href="./assets/css/icon.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/slider.css">
 <link rel="stylesheet" type="text/css" href="./assets/css/mediaQ.css">
 
 <header>
-    <nav>
-        <div class="name"><a class="name" href="#">Sean B</a></div>
-        <div class="menu">
-            <ul>
-                <li><a href="javascript:void(0)" onclick="scrollToAbout()">About</a></li>
-                <li><a id="goToPort" href="#">Portfolio</a></li>
-                <li><a id="goToContact" href="#">Info</a></li>
+    <div class="name"><a class="name" href="#">Sean B</a></div>
+    <nav role='navigation'>
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="javascript:void(0)" onclick="scrollToAbout()">
+                    <li>About</li>
+                </a>
+                <a id="goToPort" href="#">
+                    <li>Portfolio</li>
+                </a>
+                <a id="goToContact" href="#">
+                    <li>Info</li>
+                </a>
+                <div class="tag">@SeanB web designs</div>
             </ul>
         </div>
     </nav>
@@ -23,19 +35,35 @@
 </header>
 <div id="about"></div>
 <div class="desc">
-    <h2>About</h2>
+
+    <div class="abText">
+        <h2>About</h2>
+        <p>
+          Full Stack Web Developer able to build a sophisticated responsive websites, web apps, and mobile applications
+        with full database back-end all the way from mock-up to roll-out. Adept at working with diverse teams to create
+        projects within designated deadlines. Extraordinary at communicating technically and professionally to all
+        superiors and fellow peers. Using time management experience from the construction industry to implement project
+        organization.  
+        </p>
+        <p>
+         Building state-of-the-art, easy to use, user friendly, responsive websites and applications is truly a passion
+        of mine and I amconﬁdent I would be an excellent addition to your organization. In addition to my knowledge
+        base, I actively seek out new technologies and stay up to date on industry trends and advancements. This has
+        allowed me to stay ahead of the curve and deliver exceptional work to all of my employers, including those I
+        have worked for on a project basis. I have attached a copy of my resume detailing my excperience, along with a
+        link to my portfolio that contains links to websites and applications I have had the pleasure of working on   
+        </p>
+    </div>
     <div class="aboutSec">
-        <div class="aBox"><p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at mauris aliquam, mattis orci a, blandit diam.
-                Cras rutrum augue eget risus varius condimentum. Nunc viverra massa eget tellus ultricies feugiat. Phasellus
-                hendrerit purus sed lorem pulvinar, non dignissim lectus volutpat. Quisque nec elementum felis, vitae
-                consequat dolor. Nunc fringilla nibh sit amet porta sodales. Integer malesuada condimentum orci, quis auctor
-                purus suscipit ut. Nullam dictum massa sit amet pretium elementum. Suspendisse pharetra turpis urna, id
-                mattis elit porttitor eu. Duis ultrices lectus vitae turpis maximus, eget finibus nibh molestie. Aenean
-                tincidunt ligula eget dapibus lacinia. Vivamus placerat purus vel erat efficitur dictum. In cursus consequat
-                lacus, non auctor sem posuere vitae. Donec sagittis, libero sed aliquam pretium, justo mauris efficitur
-                urna, eget blandit dui neque non neque.
-            </p></div>
+        <div class="aBox">
+                <ul class="slideshow">
+                        <li><span></span></li>
+                      <li><span>2</span></li>
+                        <li><span></span></li>
+                        <li><span></span></li>
+                        <li><span></span></li>
+                    </ul>
+        </div>
         <div id="icon" class="aBox">
             <div id="container-box">
                 <img src="./assets/img/devices.png" id="laptop" height="300vh">

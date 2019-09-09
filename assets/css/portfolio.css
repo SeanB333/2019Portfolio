@@ -148,25 +148,25 @@ html, body {
     animation-delay: 0s;
   }
   .untitled__slide:nth-child(1) .untitled__slideBg {
-    background-image: url(../img/comingSoon.jpg);
+    background-image: url(../img/xtract-mock.jpg);
   }
   .untitled__slide:nth-child(2) {
     animation-delay: 5s;
   }
   .untitled__slide:nth-child(2) .untitled__slideBg {
-    background-image: url(../img/projectTRAK.jpg);
+    background-image: url(../img/ptrack-mock.jpg);
   }
   .untitled__slide:nth-child(3) {
     animation-delay: 10s;
   }
   .untitled__slide:nth-child(3) .untitled__slideBg {
-    background-image: url(../img/comingSoon.jpg);
+    background-image: url(../img/val-mock.jpg);
   }
   .untitled__slide:nth-child(4) {
     animation-delay: 15s;
   }
   .untitled__slide:nth-child(4) .untitled__slideBg {
-    background-image: url(../img/Hds.jpg);
+    background-image: url(../img/HDSmock.jpg);
   }
   .untitled__slideBg {
     position: relative;
