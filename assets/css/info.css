@@ -8,6 +8,7 @@ body {
     color: white;
     line-height: 50px;
     font-size: 2rem;
+    z-index: -3;
 }
 
 #info-1 {
@@ -24,6 +25,7 @@ body {
 .info-text {
     padding-left: 3vw;
     padding-top: 6vh;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 #info-2 {
@@ -40,6 +42,7 @@ body {
 .info-text2 {
     padding-left: 9vw;
     padding-top: 8vh;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 #state {

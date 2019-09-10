@@ -9,8 +9,6 @@ body {
 header {
     margin: 0;
     background-image: url(../img/code1.jpg);
-    opacity: 0;
-    transition: opacity 2s;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -84,6 +82,9 @@ img {
     margin: auto;
     color: black;
     margin-bottom: 2%;
+    border-bottom: .1px solid grey;
+    font-family: 'Titillium Web', sans-serif;
+    
 }
 
 .aBox {
@@ -91,4 +92,8 @@ img {
     width: 40vw;
     height: 40vh;
     position: relative;
+}
+
+.border {
+    border-left: 1px solid grey;
 }
