@@ -16,6 +16,12 @@ header {
     height: 100vh;
 }
 
+h2 {
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+}
+
 p{
     font-size: 20px;
     line-height: 30px;
@@ -28,9 +34,9 @@ img {
 }
 
 .name {
-     font-size: 50px;
+     font-size: 80px;
      float: left;
-     margin: 10px 48px;
+     margin: 20px 48px;
      position: fixed;
      font-family: 'Libre Barcode 39 Text', cursive;
      color: white;
@@ -73,11 +79,10 @@ img {
 
 .aboutSec {
     display: flex;
-
 }
 
 .abText {
-    width: 98%;
+    width: 90%;
     text-align: center;
     margin: auto;
     color: black;

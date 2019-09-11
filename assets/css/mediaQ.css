@@ -7,6 +7,9 @@
         font-size: 40px;
         padding-top: 300px;
     }
+    .name {
+        font-size: 50px;
+    }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -17,5 +20,105 @@
     .title {
         font-size: 40px;
         padding-top: 300px;
+    }
+
+    .name {
+        margin-left: 20px;
+    }
+
+    #menu {
+        width: 30%;
+    }
+
+    .slideshow  {
+        width: 30%;
+        background-color: black;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    nav ul  {
+        padding-right: 100px;
+    }
+
+    .title {
+        font-size: 40px;
+        padding-top: 300px;
+    }
+
+    #menu {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav ul  {
+        padding-right: 100px;
+        
+    }
+
+    .title {
+        font-size: 30px;
+        padding-top: 300px;
+    }
+
+    .name {
+        font-size: 40px;
+        margin-left: 20px
+    }
+
+    #menu {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    nav ul  {
+        padding-right: 100px;
+    }
+
+    .title {
+        font-size: 20px;
+        padding-top: 300px;
+    }
+
+    #menu {
+        width: 50%;
+        
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    nav ul  {
+        padding-right: 100px;
+    }
+
+    .title {
+        font-size: 40px;
+        padding-top: 300px;
+    }
+
+    .name {
+        font-size: 15px;
+    }
+
+    #menu {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    nav ul  {
+        padding-right: 100px;
+    }
+
+    .title {
+        font-size: 40px;
+        padding-top: 300px;
+    }
+
+    #menu {
+        width: 50%;
     }
 }
